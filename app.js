@@ -15,7 +15,6 @@ var connector = new builder.ChatConnector({
     
     
 appId:'73bae9cc-e21c-4199-9357-2b0b617e4b87',
-
 appPassword:'1tu9ya1G8oc1Orx6ooEPRkb'
 });
 
