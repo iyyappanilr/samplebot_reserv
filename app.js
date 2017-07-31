@@ -10,8 +10,13 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 });
 
 var connector = new builder.ChatConnector({
-    appId: process.env.MICROSOFT_APP_ID,
-    appPassword: process.env.MICROSOFT_APP_PASSWORD
+   // appId: process.env.MICROSOFT_APP_ID,
+   // appPassword: process.env.MICROSOFT_APP_PASSWORD
+    
+    
+appId:'73bae9cc-e21c-4199-9357-2b0b617e4b87',
+
+appPassword:'1tu9ya1G8oc1Orx6ooEPRkb'
 });
 
 server.post('api/messages', connector.listen());
